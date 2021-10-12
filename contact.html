@@ -10,8 +10,8 @@
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap">
 	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/blog.css">
-	<title>Блог</title>
+	<link rel="stylesheet" href="css/contact.css">
+	<title>Связь с нами</title>
 </head>
 
 <body>
@@ -48,92 +48,49 @@
 						fill="#1E0606" />
 				</svg>
 			</button>
-			<a href="contact.html" class="header__contact">CONTACT US</a>
+			<span class="header__contact">CONTACT US</span>
 		</header>
 		<main>
-			<section class="blogs">
+			<section class="form">
 				<div class="breadcrumbs">
-					<h1>Blog</h1>
+					<h1>Contact Us</h1>
 					<a href="index.html">Home</a>
-					<div>Blog</div>
+					<div>Contact Us</div>
 				</div>
-				<ul class="list">
-					<li>
-						<a href="#">
-							<img src="img/blog.jpg" alt="" height="220" width="380">
-							<p>23rd August 2018</p>
-							<h2>Top 5 fastest growing it service companies in philly</h2>
-							<p>Direct Line Development’s Team is excited to announce that we received UpCity’s 2019
-								Local Excellence Award! This prestigious award is annually presented to the Top 1%
-								of
-								service providers in the given marketplace.</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="img/blog_1.jpg" alt="" height="220" width="380">
-							<p>Best financial</p>
-							<h2>Top 5 fastest growing it service companies in philly</h2>
-							<p>Direct Line Development is honored to be recognized as one of the Top 100 Fastest
-								Growing
-								Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="img/blog_2.jpg" alt="" height="220" width="380">
-							<p>23rd August 2018</p>
-							<h2>Company logo or brand identity: which one is more important? brand identity</h2>
-							<p>To survive in the world of digital marketing, you need to keep up with the latest SEO
-								trends. Here are our simple, but effective, SEO tips for small business success.</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="img/blog_3.jpg" alt="" height="220" width="380">
-							<p>23rd August 2018</p>
-							<h2>Best financial</h2>
-							<p>Direct Line Development is honored to be recognized as one of the Top 100 Fastest
-								Growing
-								Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="img/blog_4.jpg" alt="" height="220" width="380">
-							<p>23rd August 2018</p>
-							<h2>Company logo or brand identity: which one is more important? brand identity</h2>
-							<p>To survive in the world of digital marketing, you need to keep up with the latest SEO
-								trends. Here are our simple, but effective, SEO tips for small business success.</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="img/blog_5.jpg" alt="" height="220" width="380">
-							<p>23rd August 2018</p>
-							<h2>Top 5 fastest growing it service companies in philly</h2>
-							<p>Direct Line Development’s Team is excited to announce that we received UpCity’s 2019
-								Local Excellence Award! This prestigious award is annually presented to the Top 1%
-								of
-								service providers in the given marketplace.</p>
-						</a>
-					</li>
-				</ul>
-				<div class="pagination">
-					<ul class="numbers">
-						<li>
-							<a href="#">1</a>
-						</li>
-						<li>
-							<a href="#">2</a>
-						</li>
-						<li>
-							<a href="#">3</a>
-						</li>
-						<li>
-							<a href="#">4</a>
-						</li>
-					</ul>
+				<form action="#" method="POST">
+					<div>
+						<label for="contact_name">Name</label>
+						<input type="text" id="contact_name">
+					</div>
+					<div>
+						<div>
+							<label for="contact_phone">Phone</label>
+							<input type="tel" id="contact_phone">
+						</div>
+						<div>
+							<label for="contact_email">Email</label>
+							<input type="email" id="contact_email">
+						</div>
+					</div>
+					<div>
+						<label for="contact_message">Message</label>
+						<textarea id="contact_message" cols="30" rows="10"></textarea>
+					</div>
+					<div>
+						<input type="checkbox" id="contact_agreement">
+						<label for="contact_agreement">By clicking on the button, you consent to the processing of your
+							personal
+							data</label>
+					</div>
+					<button type="submit">Submit</button>
+				</form>
+				<div>
+					<p>Our support team are on-hand to assist with any issues you are experiencing. <br>
+						Please use the form to contact us with your needs. Send us a message and we'll respond as soon
+						as
+						possible.
+					</p>
+					<p class="gold">An expert is waiting to help you!</p>
 				</div>
 			</section>
 		</main>

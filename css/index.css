@@ -1,0 +1,120 @@
+/* SLIDER */
+
+.slider{
+	margin: 0 0 90px 0;
+}
+
+/* PRODUCTS */
+
+.products{
+	margin: 0 0 90px 0;
+}
+
+.products h2{
+	font-size: 38px;
+	line-height: 46px;
+	text-transform: uppercase;
+	color: #1E0606;
+	font-family: "Montserrat", "Arial", sans-serif;
+	font-weight: bold;
+	margin: 0 0 30px 0;
+}
+
+.products__catalog{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 0 30px 0;
+}
+
+.products__button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 37px;
+	width: 37px;
+	background: rgba(112, 187, 220, 0.2);
+}
+
+.products__button_b{
+	/* background-image: url(); */
+	margin: 0 6px 0 0;
+}
+
+.products__button_f{
+	 margin: 0 20px 0 0;
+}	
+
+.products__control{
+	display: flex;
+	align-items: center;
+}
+
+.products__control p{
+	font-size: 16px;
+	line-height: 22px;
+	color: #1E0606;
+	max-width: 580px;
+}
+
+/* DELIVERY */
+
+.delivery{
+	display: flex;
+	margin: 0 0 90px 0;
+}
+
+.delivery img{
+	margin: 0 60px 0 0;
+}
+
+/* COMPANY */
+
+.company{
+	margin: 0 0 90px 0;
+}
+
+.company__list{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* ABOUT */
+
+.about{
+	display: flex;
+	align-items: flex-start;
+}
+
+.about h2{
+	font-family: "Montserrat", "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 46px;
+	text-transform: uppercase;
+	color: #1E0606;
+}
+
+.about h3{
+	font-family: "Crimson Text", "Arial", sans-serif;
+	font-style: italic;
+	font-size: 26px;
+	line-height: 32px;
+	color: #1E0606;
+}
+
+.about p{
+	font-family: "Open Sans", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #1E0606;
+}
+
+.about__design{
+
+}
+
+.about__contacts{
+
+}
