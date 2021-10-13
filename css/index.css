@@ -14,7 +14,6 @@
 	font-size: 38px;
 	line-height: 46px;
 	text-transform: uppercase;
-	color: #1E0606;
 	font-family: "Montserrat", "Arial", sans-serif;
 	font-weight: bold;
 	margin: 0 0 30px 0;
@@ -37,7 +36,6 @@
 }
 
 .products__button_b{
-	/* background-image: url(); */
 	margin: 0 6px 0 0;
 }
 
@@ -53,7 +51,6 @@
 .products__control p{
 	font-size: 16px;
 	line-height: 22px;
-	color: #1E0606;
 	max-width: 580px;
 }
 
@@ -93,7 +90,6 @@
 	font-size: 38px;
 	line-height: 46px;
 	text-transform: uppercase;
-	color: #1E0606;
 }
 
 .about h3{
@@ -101,20 +97,18 @@
 	font-style: italic;
 	font-size: 26px;
 	line-height: 32px;
-	color: #1E0606;
 }
 
 .about p{
 	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 22px;
-	color: #1E0606;
 }
-
+/* 
 .about__design{
 
 }
 
 .about__contacts{
 
-}
+} */
