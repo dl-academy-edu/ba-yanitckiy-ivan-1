@@ -51,7 +51,7 @@
 			<span class="header__contact">CONTACT US</span>
 		</header>
 		<main>
-			<section class="form">
+			<section class="contact">
 				<div class="breadcrumbs">
 					<h1>Contact Us</h1>
 					<div class="breadcrumbs__links">
@@ -61,40 +61,48 @@
 						<span>Contact Us</span>
 					</div>
 				</div>
-				<form action="#" method="POST">
-					<div>
-						<label for="contact_name">Name</label>
-						<input type="text" id="contact_name">
-					</div>
-					<div>
-						<div>
-							<label for="contact_phone">Phone</label>
-							<input type="tel" id="contact_phone">
+				<div class="contact__content">
+					<form action="#" method="POST" class="form">
+						<div class="form__item">
+							<label for="contact_name">Name</label>
+							<input type="text" id="contact_name" placeholder="Ivan Ivanov">
 						</div>
-						<div>
-							<label for="contact_email">Email</label>
-							<input type="email" id="contact_email">
+						<div class="form__data">
+							<div class="form__item form__phone">
+								<label for="contact_phone">Phone</label>
+								<input type="tel" id="contact_phone">
+							</div>
+							<div class="form__item">
+								<label for="contact_email">Email</label>
+								<input type="email" id="contact_email">
+							</div>
 						</div>
+						<div class="form__item">
+							<label for="contact_message">Message</label>
+							<textarea id="contact_message"></textarea>
+						</div>
+						<div class="form__check">
+							<input type="checkbox" id="contact_agreement" class="checkbox-input" required>
+							<label for="contact_agreement" class="checkbox-label">By clicking on the button, you consent
+								to the processing of
+								your
+								personal
+								data</label>
+						</div>
+						<button type="submit" class="button">Submit</button>
+					</form>
+					<div class="contact__description">
+						<p>
+							Our support team are on-hand to assist with any issues you are experiencing.
+						</p>
+						<p>
+							Please use the form to contact us with your needs. Send us a message and we'll respond as
+							soon
+							as
+							possible.
+						</p>
+						<p class="gold">An expert is waiting to help you!</p>
 					</div>
-					<div>
-						<label for="contact_message">Message</label>
-						<textarea id="contact_message" cols="30" rows="10"></textarea>
-					</div>
-					<div>
-						<input type="checkbox" id="contact_agreement">
-						<label for="contact_agreement">By clicking on the button, you consent to the processing of your
-							personal
-							data</label>
-					</div>
-					<button type="submit">Submit</button>
-				</form>
-				<div>
-					<p>Our support team are on-hand to assist with any issues you are experiencing. <br>
-						Please use the form to contact us with your needs. Send us a message and we'll respond as soon
-						as
-						possible.
-					</p>
-					<p class="gold">An expert is waiting to help you!</p>
 				</div>
 			</section>
 		</main>

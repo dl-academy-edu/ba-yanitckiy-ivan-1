@@ -50,8 +50,10 @@
 			</button>
 			<a href="contact.html" class="header__contact">CONTACT US</a>
 		</header>
-		<main>
-			<section class="settings">
+	</div>
+	<main>
+		<section class="settings">
+			<div class="container">
 				<div class="breadcrumbs">
 					<h1>Toys</h1>
 					<div class="breadcrumbs__links">
@@ -64,132 +66,146 @@
 						<span>Toys</span>
 					</div>
 				</div>
-				<div class="options">
-					<div class="cost">
-						<h3>Cost</h3>
-						<input type="range">
-						<div>
-							<span>0</span>
-							<span>500</span>
+			</div>
+			<div class="settings__background">
+				<div class="container">
+					<div class="settings__options">
+						<div class="settings__cost">
+							<h3>Cost</h3>
+							<input type="range">
+							<div class="settings__number">
+								<span>0</span>
+								<span>500</span>
+							</div>
+						</div>
+						<div class="settings__color">
+							<h3>Color</h3>
+							<ul class="undotted">
+								<li>
+									<input type="checkbox" id="color_black" class="checkbox-input">
+									<label for="color_black" class="checkbox-label">Black</label>
+								</li>
+								<li>
+									<input type="checkbox" id="color_blue" class="checkbox-input">
+									<label for="color_blue" class="checkbox-label">Blue</label>
+								</li>
+								<li>
+									<input type="checkbox" id="color_green" class="checkbox-input">
+									<label for="color_green" class="checkbox-label">Green</label>
+								</li>
+								<li>
+									<input type="checkbox" id="color_white" class="checkbox-input">
+									<label for="color_white" class="checkbox-label">White</label>
+								</li>
+							</ul>
+						</div>
+						<div class="settings__delivery">
+							<h3>Delivery</h3>
+							<ul class="undotted">
+								<li>
+									<input type="radio" id="del_free" name="delivery-radio" class="radio-input">
+									<label for="del_free" class="radio-label">Free shipping</label>
+								</li>
+								<li>
+									<input type="radio" id="del_fast" name="delivery-radio" class="radio-input">
+									<label for="del_fast" class="radio-label">Fast shipping</label>
+								</li>
+							</ul>
+						</div>
+						<div class="settings__amount">
+							<h3>Amount</h3>
+							<div class="settings__line">
+								<ul class="buttons undotted">
+									<li class="buttons__item">
+										<input type="radio" id="amount_five" name="amount-radio"
+											class="radio-input_button">
+										<label for="amount_five" class="radio-label_button">0-5</label>
+									</li>
+									<li class="buttons__item">
+										<input type="radio" id="amount_twenty" name="amount-radio"
+											class="radio-input_button">
+										<label for="amount_twenty" class="radio-label_button">10-20</label>
+									</li>
+									<li class="buttons__item">
+										<input type="radio" id="amount_fifty" name="amount-radio"
+											class="radio-input_button">
+										<label for="amount_fifty" class="radio-label_button">20-50</label>
+									</li>
+								</ul>
+								<button type="submit" class="button">Apply</button>
+							</div>
 						</div>
 					</div>
-					<div class="color">
-						<h3>Color</h3>
-						<ul class="checkboxs">
-							<li><input type="checkbox" id="color_black">
-								<label for="color_black">Black</label>
-							</li>
-							<li>
-								<input type="checkbox" id="color_blue">
-								<label for="color_blue">Blue</label>
-							</li>
-							<li>
-								<input type="checkbox" id="color_green">
-								<label for="color_green">Green</label>
-							</li>
-							<li>
-								<input type="checkbox" id="color_white">
-								<label for="color_white">White</label>
-							</li>
-						</ul>
-					</div>
-					<div class="delivery">
-						<h3>Delivery</h3>
-						<ul class="delivery__radio">
-							<li>
-								<input type="radio" id="del_free" name="delivery-radio">
-								<label for="del_free">Free shipping</label>
-							</li>
-							<li>
-								<input type="radio" id="del_fast" name="delivery-radio">
-								<label for="del_fast">Fast shipping</label>
-							</li>
-						</ul>
-					</div>
-					<div class="amount">
-						<h3>Amount</h3>
-						<ul class="amount__radio">
-							<li>
-								<input type="radio" id="amount_five" name="amount-radio">
-								<label for="amount_five">0-5</label>
-							</li>
-							<li>
-								<input type="radio" id="amount_twenty" name="amount-radio">
-								<label for="amount_twenty">10-20</label>
-							</li>
-							<li>
-								<input type="radio" id="amount_fifty" name="amount-radio">
-								<label for="amount_fifty">20-50</label>
-							</li>
-						</ul>
-					</div>
-					<button type="submit">Apply</button>
 				</div>
-			</section>
+			</div>
+		</section>
+		<div class="container">
 			<section class="toys">
-				<ul class="toys__list">
-					<li>
+				<ul class="toys__list undotted">
+					<li class="toys__item">
 						<a href="#">
-							<img src="img/toy.png" alt="" width="380" height="385">
+							<img src="img/toy-5.png" alt="" width="380" height="385" class="toys__img">
 							<h3>SHARKY BEAN BAG CHAIR COVER</h3>
 							<p>$60.00 USD</p>
 						</a>
 					</li>
-					<li>
+					<li class="toys__item">
 						<a href="#">
-							<img src="img/toy-1.png" alt="" width="380" height="385">
+							<img src="img/toy-4.png" alt="" width="380" height="385" class="toys__img">
 							<h3>BRASS DECO FRAMES</h3>
 							<p>$66.00 USD</p>
 						</a>
 					</li>
-					<li>
+					<li class="toys__item">
 						<a href="#">
-							<img src="img/toy-2.png" alt="" width="380" height="385">
+							<img src="img/toy-3.png" alt="" width="380" height="385" class="toys__img">
 							<h3>CIBO FULL APRON</h3>
 							<p>$60.00 USD</p>
 						</a>
 					</li>
-					<li>
+					<li class="toys__item">
 						<a href="#">
-							<img src="img/toy-3.png" alt="" width="380" height="385">
+							<img src="img/toy-2.png" alt="" width="380" height="385" class="toys__img">
 							<h3>GATCHA GATCHA GUMBALL MACHINE</h3>
 							<p>$56.00 USD</p>
 						</a>
 					</li>
-					<li>
+					<li class="toys__item">
 						<a href="#">
-							<img src="img/toy-4.png" alt="" width="380" height="385">
+							<img src="img/toy-1.png" alt="" width="380" height="385" class="toys__img">
 							<h3>CHRISTMAS ADVENT SCENTED CANDLE</h3>
 							<p>$29.00 USD</p>
 						</a>
 					</li>
-					<li>
+					<li class="toys__item">
 						<a href="#">
-							<img src="img/toy-5.png" alt="" width="380" height="382">
+							<img src="img/toy.png" alt="" width="380" height="382" class="toys__img">
 							<h3>TANGLE SPINNING TEA LIGHT</h3>
 							<p>$56.00 USD</p>
 						</a>
 					</li>
 				</ul>
 				<div class="pagination">
-					<ul class="numbers">
-						<li>
+					<a href="#" class="pagination__back"></a>
+					<ul class="pagination__numbers undotted">
+						<li class="pagination__num pagination__num_active">
 							<a href="#">1</a>
 						</li>
-						<li>
+						<li class="pagination__num">
 							<a href="#">2</a>
 						</li>
-						<li>
+						<li class="pagination__num">
 							<a href="#">3</a>
 						</li>
-						<li>
+						<li class="pagination__num">
 							<a href="#">4</a>
 						</li>
 					</ul>
+					<a href="#" class="pagination__forward"></a>
 				</div>
 			</section>
-		</main>
-	</div>
+		</div>
+	</main>
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__upper">
