@@ -114,19 +114,6 @@
 
 .toys__img{
 	margin: 0 0 30px 0;
-	/* display: block;
-	position: relative; */
-	/* z-index: 1; */
-}
-
-.toys__img::after{
-	content: "asdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdasasdasdas";
-	/* display: block; */
-	/* position: absolute;
-	width: 207px;
-	height: 207px;
-	background: #E5EAF8;
-	z-index: 5; */
 }
 
 .toys__item h3{

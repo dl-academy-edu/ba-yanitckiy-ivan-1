@@ -6,7 +6,7 @@
 	font-style: normal;
 	font-weight: normal;
 	color: #1E0606;
-	outline: none;
+	/* outline: none; */
 }
 
 *::after,
@@ -253,6 +253,7 @@ a.header__contact:active{
 	padding: 10px 20px;
 	font-size: 18px;
 	line-height: 25px;
+	outline: none;
 }
 
 .form__item input::placeholder{
@@ -269,6 +270,7 @@ a.header__contact:active{
 	padding: 15px 20px;
 	font-size: 18px;
 	line-height: 25px;
+	outline: none;
 }
 
 .form__item input:hover,
