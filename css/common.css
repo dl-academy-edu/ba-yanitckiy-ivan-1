@@ -70,7 +70,7 @@ button{
 .header{
 	display: flex;
 	align-items: center;
-	margin: 50px 0 40px 0;
+	margin: 50px 0 60px 0;
 }
 
 .header__logo{
@@ -131,7 +131,7 @@ a.header__contact:active{
 /* BREADCRUMBS */
 
 .breadcrumbs{
-	margin: 60px 0 50px 0;
+	margin: 0 0 50px 0;
 }
 
 .breadcrumbs h1{
@@ -197,9 +197,12 @@ a.header__contact:active{
 	text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
-.products__item h3:hover{
+.products__item a:hover + .products__item h3{
 	text-decoration: underline;
 }
+ 
+/* .products__item h3:hover{
+} */
 
 .products__item_1{
 	background-image: url(../img/category_1.jpg);
