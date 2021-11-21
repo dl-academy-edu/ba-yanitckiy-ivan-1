@@ -9,8 +9,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap">
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/toys.css">
+	<link rel="stylesheet" href="css/normalize.mini.css">
+	<link rel="stylesheet" href="css/common.mini.css">
+	<link rel="stylesheet" href="css/toys.mini.css">
 	<title>Игрушки</title>
 </head>
 
@@ -41,7 +42,7 @@
 					</li>
 				</ul>
 			</nav>
-			<button type="button" class="header__search">
+			<button type="button" class="header__search" aria-label="search button">
 				<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path
 						d="M11.3651 0.26001C7.94509 0.26001 5.16509 3.08001 5.16509 6.52001C5.16509 7.98001 5.6651 9.30002 6.4851 10.38L0.605098 16.32C0.265098 16.68 0.265098 17.24 0.605098 17.58C0.785098 17.76 1.0051 17.84 1.2251 17.84C1.4651 17.84 1.6851 17.76 1.8651 17.58L7.7451 11.62C8.7651 12.36 10.0051 12.78 11.3451 12.78C14.7651 12.78 17.5451 9.96001 17.5451 6.52001C17.5651 3.06001 14.7851 0.26001 11.3651 0.26001ZM11.3651 11.2C8.82509 11.2 6.76509 9.10001 6.76509 6.52001C6.76509 3.94001 8.82509 1.84001 11.3651 1.84001C13.9051 1.84001 15.9651 3.94001 15.9651 6.52001C15.9651 9.10001 13.9051 11.2 11.3651 11.2ZM14.4651 6.60001C14.4251 6.94001 14.1251 7.20001 13.7851 7.20001C13.7451 7.20001 13.7251 7.20001 13.6851 7.20001C13.3051 7.14001 13.0451 6.80001 13.0851 6.42001C13.2251 5.38001 12.0651 4.84001 12.0051 4.82001C11.6651 4.66001 11.5051 4.24001 11.6651 3.90001C11.8251 3.56001 12.2251 3.40001 12.5851 3.54001C12.6651 3.56001 14.7451 4.52001 14.4651 6.60001ZM13.0051 8.12001C13.1451 8.26001 13.2451 8.48002 13.2451 8.68002C13.2451 8.90002 13.1651 9.10001 13.0051 9.24002C12.8651 9.38002 12.6451 9.48002 12.4451 9.48002C12.2451 9.48002 12.0251 9.40001 11.8851 9.24002C11.7451 9.10001 11.6451 8.88002 11.6451 8.68002C11.6451 8.48002 11.7251 8.26001 11.8851 8.12001C12.0251 7.98001 12.2451 7.88002 12.4451 7.88002C12.6451 7.88002 12.8451 7.96001 13.0051 8.12001Z"
@@ -55,7 +56,7 @@
 		<section class="settings">
 			<div class="container">
 				<div class="breadcrumbs">
-					<h1>Toys</h1>
+					<h1>Toy for kids</h1>
 					<div class="breadcrumbs__links">
 						<div class="breadcrumbs__link">
 							<a href="index.html">Home</a>
@@ -117,18 +118,15 @@
 							<div class="settings__line">
 								<ul class="buttons undotted">
 									<li class="buttons__item">
-										<input type="radio" id="amount_five" name="amount-radio"
-											class="radio-input_button">
+										<input type="radio" id="amount_five" name="amount-radio" class="radio-input_button">
 										<label for="amount_five" class="radio-label_button">0-5</label>
 									</li>
 									<li class="buttons__item">
-										<input type="radio" id="amount_twenty" name="amount-radio"
-											class="radio-input_button">
+										<input type="radio" id="amount_twenty" name="amount-radio" class="radio-input_button">
 										<label for="amount_twenty" class="radio-label_button">10-20</label>
 									</li>
 									<li class="buttons__item">
-										<input type="radio" id="amount_fifty" name="amount-radio"
-											class="radio-input_button">
+										<input type="radio" id="amount_fifty" name="amount-radio" class="radio-input_button">
 										<label for="amount_fifty" class="radio-label_button">20-50</label>
 									</li>
 								</ul>
@@ -145,7 +143,7 @@
 					<li class="toys__item">
 						<a href="#">
 							<div class="toys__img">
-								<img src="img/toy-5.png" alt="" width="380" height="385">
+								<img src="img/toy-5.png" alt="toy picture" width="380" height="385">
 								<div>Learn more</div>
 							</div>
 							<h3>SHARKY BEAN BAG CHAIR COVER</h3>
@@ -155,7 +153,7 @@
 					<li class="toys__item">
 						<a href="#">
 							<div class="toys__img">
-								<img src="img/toy-4.png" alt="" width="380" height="385">
+								<img src="img/toy-4.png" alt="toy picture" width="380" height="385">
 								<div>Learn more</div>
 							</div>
 							<h3>BRASS DECO FRAMES</h3>
@@ -165,7 +163,7 @@
 					<li class="toys__item">
 						<a href="#">
 							<div class="toys__img">
-								<img src="img/toy-3.png" alt="" width="380" height="385">
+								<img src="img/toy-3.png" alt="toy picture" width="380" height="385">
 								<div>Learn more</div>
 							</div>
 							<h3>CIBO FULL APRON</h3>
@@ -175,7 +173,7 @@
 					<li class="toys__item">
 						<a href="#">
 							<div class="toys__img">
-								<img src="img/toy-2.png" alt="" width="380" height="385">
+								<img src="img/toy-2.png" alt="toy picture" width="380" height="385">
 								<div>Learn more</div>
 							</div>
 							<h3>GATCHA GATCHA GUMBALL MACHINE</h3>
@@ -185,7 +183,7 @@
 					<li class="toys__item">
 						<a href="#">
 							<div class="toys__img">
-								<img src="img/toy-1.png" alt="" width="380" height="385">
+								<img src="img/toy-1.png" alt="toy picture" width="380" height="385">
 								<div>Learn more</div>
 							</div>
 							<h3>CHRISTMAS ADVENT SCENTED CANDLE</h3>
@@ -195,7 +193,7 @@
 					<li class="toys__item">
 						<a href="#">
 							<div class="toys__img">
-								<img src="img/toy.png" alt="" width="380" height="382">
+								<img src="img/toy.png" alt="toy picture" width="380" height="382">
 								<div>Learn more</div>
 							</div>
 							<h3>TANGLE SPINNING TEA LIGHT</h3>
@@ -281,9 +279,8 @@
 					</form>
 					<ul class="footer__media undotted">
 						<li>
-							<a href="#" target="_blank">
-								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+							<a href="#" target="_blank" aria-label="facebook">
+								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd"
 										d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z"
 										fill="#666666" />
@@ -294,9 +291,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" target="_blank">
-								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+							<a href="#" target="_blank" aria-label="twitter">
+								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd"
 										d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z"
 										fill="#666666" />
@@ -307,9 +303,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" target="_blank">
-								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+							<a href="#" target="_blank" aria-label="pinterest">
+								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd"
 										d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z"
 										fill="#666666" />
@@ -320,9 +315,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" target="_blank">
-								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+							<a href="#" target="_blank" aria-label="instagram">
+								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd"
 										d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z"
 										fill="#666666" />
@@ -337,12 +331,10 @@
 			</div>
 			<div class="footer__lower">
 				<div class="footer__column footer__column_rate">
-					<p class="footer__rating">Company Rating</p>
 					<ul class="undotted">
 						<li>
 							<button type="button">
-								<svg width="14" height="13" viewBox="0 0 14 13" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+								<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z"
 										fill="white" />
@@ -351,8 +343,7 @@
 						</li>
 						<li>
 							<button type="button">
-								<svg width="14" height="13" viewBox="0 0 14 13" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+								<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z"
 										fill="white" />
@@ -361,8 +352,7 @@
 						</li>
 						<li>
 							<button type="button">
-								<svg width="14" height="13" viewBox="0 0 14 13" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+								<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z"
 										fill="white" />
@@ -371,8 +361,7 @@
 						</li>
 						<li>
 							<button type="button">
-								<svg width="14" height="13" viewBox="0 0 14 13" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+								<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z"
 										fill="white" />
@@ -381,8 +370,7 @@
 						</li>
 						<li>
 							<button type="button">
-								<svg width="14" height="13" viewBox="0 0 14 13" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
+								<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z"
 										fill="white" />
@@ -390,6 +378,7 @@
 							</button>
 						</li>
 					</ul>
+					<p class="footer__rating">Company Rating</p>
 				</div>
 				<p class="footer__copyright footer__column">Copyright © 2018 Dlk • Design Life Kids</p>
 				<a href="#" class="footer__column footer__column_l">Web Design — Direct Line Development</a>
