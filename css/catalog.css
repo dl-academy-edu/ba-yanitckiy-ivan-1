@@ -1,4 +1,7 @@
 .products__catalog{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
 	display: flex;
 	align-items: center;
 }
@@ -12,6 +15,9 @@
 }
 
 .products__lower{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
 	display: flex;
 	justify-content: end;
 }
