@@ -516,7 +516,7 @@ input[type=radio]{
 	width: 33.333%;
 }
 
-.footer__column_l{
+.footer__column:last-child{
 	margin: 0;
 }
 
@@ -529,7 +529,7 @@ input[type=radio]{
 	border-bottom: #666666 solid 1px;
 }
 
-.footer__column_l h3{
+.footer__column:last-child h3{
 	margin: 0 0 25px 0;
 }
 
